@@ -1,0 +1,209 @@
+body {
+	a {
+		text-decoration: none;
+	}
+}
+
+header {
+	display: block;
+
+	margin-left: 200px;
+	margin-top: 60px;
+
+	.menu {
+		display: inline;
+
+		.home {
+			display: inline;
+
+			margin-right: 20px ;
+			span {
+				font-family: 'Dela Gothic One', cursive;
+				color: black;
+
+				font-size: 24.35px;
+			}
+			a {
+				text-decoration: none;
+				color: black;
+			}
+		}
+
+		.vector1 {
+			margin-right: 20px;
+		}
+
+		.menu1 {
+			display: inline;
+
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 600;
+			font-size: 19.87px;
+
+			a {
+				color: #585858;
+			}
+
+			.main {
+				display: inline;
+				margin-right: 20px;
+			}
+
+			.guide {
+				display: inline;
+				margin-right: 20px;
+			}
+
+			.stat {
+				display: inline;
+				margin-right: 20px;
+			}
+
+			.games {
+				display: inline;
+				margin-right: 20px;
+			}
+		}
+
+	}
+
+	.autho {
+		display: inline;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		font-size: 19.87px;
+
+		margin-left: 600px;
+		.login {
+			display: inline;
+
+			a {
+				color: black
+			}
+		}
+
+		.signup {
+			display: inline;
+
+			border: 1px solid #2B788B;
+			border-radius: 17.03px;
+			background-color: #2B788B;
+
+			padding: 10px;
+
+			a {
+				color: white;
+			}
+		}
+	}
+}
+
+main {
+	display: flex;
+	margin-left: 200px;
+	margin-top: 30px;
+
+	.info {
+		display: inline;
+		.minfo {
+			display: inline;
+			.text1 {
+				width: 637.95px;
+				span {
+					font-family: 'Montserrat', sans-serif;
+					font-weight: bold;
+					font-size: 19.87px;
+					color: #2B788B;
+				}
+				.maininfo {
+					display: inline;
+
+					h1 {
+						display: inline;
+
+						font-family: 'Dela Gothic One', cursive;
+						font-size: 73.24px;
+					}
+
+					span {
+						color: #585858;
+						line-height: 140%;
+					}
+				}
+			}
+			.buttons {
+				display: inline;
+
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				font-size: 19.87px;
+
+
+				.learnmore {
+					display: inline;
+
+					border: 1px solid #C3DCE3;
+					border-radius: 17.03px;
+					background-color: #C3DCE3;
+
+					a {
+						color: #2B788B;
+					}
+
+						padding: 15px;
+					}
+
+					a {
+						color: black;
+					}
+			}
+		}
+		.stats {
+			display: inline;
+
+			font-family: 'Montserrat', sans-serif;
+			font-weight: bold;
+			font-size: 19.87px;
+			line-height: 140%;
+
+			.n1 {
+				display: inline;
+
+				margin-right: 20px;
+			}
+
+			.vector {
+				display: inline;
+			}
+
+			.n2 {
+				display: inline;
+				margin-left: 20px;
+			}
+		}
+	}
+
+	.pic {
+		display: inline;
+		position: relative;
+
+		img {
+			position: absolute;
+		}
+
+		img:first-child {
+			z-index: 0;
+		}
+
+		img:nth-child(2) {
+			right: 10px;
+			left: 350px;
+		}
+
+		img:last-child {
+			top: 150px;
+			left: -80px;
+			z-index: -1;
+		}
+	}
+}
